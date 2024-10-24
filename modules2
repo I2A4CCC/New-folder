@@ -1,0 +1,14 @@
+# Write code below 💖
+
+#creating a slot machine.py
+# importing module
+import random
+
+symbols = ['🍒',' 🍇', '🍉', '7️⃣']
+
+result = random.choices(symbols, k=3)
+print(result)
+if result[0] == symbols[3] and result[1] == symbols[3] and result[2] == symbols[3]:
+  print( "Jackpot! 💰")
+else:
+  print('thanks for playing')
